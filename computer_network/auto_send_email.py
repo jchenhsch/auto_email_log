@@ -12,17 +12,19 @@ use  netstat -apn|grep 3306 in Linux VM to check if the mysql server is running
 two password entry
 1. first one for email authentication
 2. second one for database authentication
+
+need to fill in your recipents, your name and your password (getpass.getpass())
 """
 
 receivers_dic = {
-     'Professor Manfredi': "vumanfredi@wesleyan.edu"
-}
+     
+} # your recipents
 
 
 a = AutoEmail()
-a.from_name = 'Jiaxuan Chen'  
+a.from_name = '' # your name  
 
-a.from_mail = 'jchenhsch@wesleyan.edu'  
+a.from_mail = ''  # your password
 
 a.from_password =getpass.getpass()
 #for cron automation: Use
