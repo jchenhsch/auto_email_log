@@ -1,0 +1,12 @@
+Sending No.1 email to Professor Manfredi
+sending
+Sent successfully
+connection succeeded
+updated
+append file opened
+Sending No.1 email to Professor Manfredi
+sending
+Sent successfully
+connection succeeded
+updated
+append file opened
