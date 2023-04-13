@@ -7,7 +7,7 @@ def update_mysql_email_log(name,topic,recipient, send_time):
 
     #pin=getpass.getpass()
     pin="" # since the MySQL is using skip-grant-table, no password needed to access the mysql
-    conn = psql.connect(host='192.168.139.210', user='root', password=pin, charset='utf8', db='autoemail')
+    conn = psql.connect(host='', user='root', password=pin, charset='utf8', db='autoemail') # Your host
     cur = conn.cursor()
     print("connection succeeded")
 
